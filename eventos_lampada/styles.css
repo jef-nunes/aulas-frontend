@@ -1,0 +1,165 @@
+body {
+    background-color: black;
+}
+
+.central {
+    width: 300px; 
+    height: fit-content;
+    background-color: #000000;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    align-content: center;
+    padding: 5px;
+    border-color: #202020;
+    border-style: solid; 
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 50px;
+    opacity: 0.95;
+}
+
+.central:hover {
+    width: 300px; 
+    height: fit-content;
+    background-color: #030505;
+    background: linear-gradient(90deg, #030505 20%, #165c702c 60%, #030505  80%);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    align-content: center;
+    padding: 5px;
+    border-color: #202020;
+    border-style: solid; 
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 50px;
+    opacity: 1;
+}
+
+.central #btns{
+width: 200px; 
+height: fit-content;
+background-color: #06303f;
+background: linear-gradient(90deg, #0e1a1d 20%, #16704a67 60%, #0e1a1d  80%);
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+align-content: center;
+padding: 5px;
+border-color: #193531;
+border-style: solid; 
+border-width: 2px;
+border-radius: 16px;
+padding-bottom: 20px;
+margin-top: 10px;
+}
+
+.central #btns:hover{
+    width: 200px; 
+    height: fit-content;
+    background-color: #06303f;
+    background: linear-gradient(90deg, #0e1a1d 20%, #16704a80 60%, #0e1a1d  80%);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    align-content: center;
+    padding: 5px;
+    border-color: #193531;
+    border-style: solid; 
+    border-width: 2px;
+    border-radius: 16px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    }
+
+.central #lamp{
+    margin-top: 30px;
+    padding: 30px; 
+    border-radius: 100px;
+    border-style: double;
+    border-width: 10px; 
+    border-color: #03ff6c; 
+    background-color: rgb(28, 47, 49);
+    background: linear-gradient(90deg, #0e1a1d 0%, #16ca7663 50%, #0e1a1d  100%);
+
+    width: 90px; 
+    height: 130px;
+    opacity: 0.8;
+}
+
+.central #lamp:hover{
+    margin-top: 30px;
+    padding: 30px; 
+    border-radius: 100px;
+    border-style: double;
+    border-width: 10px; 
+    border-color: #03ff6c;
+    background-color: rgb(28, 47, 49); 
+    width: 90px; 
+    height: 130px;
+    opacity: 1;
+}
+
+.central button {
+    background-color: #14202b;
+    background: #000000;
+    background: linear-gradient(90deg, #070a0c00 0%, #183527 50%, #03030300 100%);
+    border-color: #008b51;
+    border-style: solid;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 50px;
+    width: 120px;
+    text-decoration: none;
+    color: #00f853;
+    text-shadow: 0px 0px 20px #00ff88;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0d5469;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    opacity: 0.5;
+}
+
+.central button:hover  {
+    background-color: #14202b;
+    background: #000000;
+    background: linear-gradient(90deg, #070a0c00 0%, #183527 50%, #03030300 100%);
+    border-color: #008b51;
+    border-style: solid;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 50px;
+    width: 120px;
+    text-decoration: none;
+    text-shadow: 0px 0px 20px #00ff88;
+    color: #00f853;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0d5469;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    opacity: 0.7;
+}
+
+.central button:focus {
+    background-color: #14202b;
+    background: #000000;
+    background: linear-gradient(90deg, #070a0c00 0%, #183527 50%, #03030300 100%);
+    border-color: #008b51;
+    border-style: solid;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 50px;
+    width: 120px;
+    text-decoration: none;
+    text-shadow: 0px 0px 20px #00ff88;
+    color: #00f853;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0d5469;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sans-serif;
+    opacity: 1;
+}
