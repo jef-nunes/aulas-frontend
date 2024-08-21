@@ -1,9 +1,9 @@
 class Lamp {
-    static image = document.querySelector("#lamp");
-    static btn_on = document.querySelector("#lamp_on");
-    static btn_off = document.querySelector("#lamp_off");
+    static image;
+    static btn_on;
+    static btn_off;
 
-    static toggle(intState) {
+    static toggleLight(intState) {
         if (intState === 1) {
             Lamp.image.src = "images/lamp_on_v2.png";
         } else {
@@ -11,12 +11,15 @@ class Lamp {
         }
     }
 
-    static startLogic() {
-        Lamp.btn_on.addEventListener("click", () => Lamp.toggle(1));
-        Lamp.btn_off.addEventListener("click", () => Lamp.toggle(0));
+    static activate() {
+        Lamp.image = document.querySelector("#lamp");
+        Lamp.btn_on = document.querySelector("#lamp_on");
+        Lamp.btn_off = document.querySelector("#lamp_off");
+        Lamp.btn_on.addEventListener("click", () => Lamp.toggleLight(1));
+        Lamp.btn_off.addEventListener("click", () => Lamp.toggleLight(0));
     }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    Lamp.startLogic();
+    Lamp.activate();
 });
