@@ -1,0 +1,46 @@
+.btn-a-nav{
+display: flex; 
+flex-direction: row;
+padding: 10px;
+background-color: rgb(237, 238, 238);
+width: fit-content;
+height: fit-content;
+border-radius: 5px;
+border-width: 3px;
+border-style: solid;
+border-color: rgb(73, 73, 73);
+}
+
+.btn-a-nav button{
+    font-size: 40;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.emotion-title-default{
+    color: rgb(0, 255, 153);
+    -webkit-text-stroke-color: rgb(0, 97, 23);
+    -webkit-text-stroke-width: 1px;
+}
+.emotion-title-anger{
+    color: rgb(255, 99, 38);
+    -webkit-text-stroke-color: rgb(193, 69, 3);
+    -webkit-text-stroke-width: 1px;
+}
+.emotion-title-happy{
+    color: rgb(255, 248, 33);
+    -webkit-text-stroke-color: rgb(43, 255, 92);
+    -webkit-text-stroke-width: 1px;
+}
+.emotion-title-disgust{
+    color: rgb(151, 238, 64);
+    -webkit-text-stroke-color: rgb(102, 141, 36);
+    -webkit-text-stroke-width: 1px;
+}
+.emotion-title-sad{
+    color: rgb(64, 148, 238);
+    -webkit-text-stroke-color: rgb(29, 57, 110);
+    -webkit-text-stroke-width: 1px;
+}
