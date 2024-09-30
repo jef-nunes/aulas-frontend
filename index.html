@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/index.css">
-    <title>Site</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
 </head>
-<body>
+<body style="background-color: black; font-family: sans-serif;">
     <form>
-        <h1>Sistema Escolar - 2024</h1>
-        <label for="">
-            <span>1ª Unidade</span>
-            <input id="input-nota-1">
-        </label>
-
-        <label for="">
-            <span>2ª Unidade</span>
-            <input id="input-nota-2">
-        </label>
-
-        <label for="">
-            <span>3ª Unidade</span>
-        <input id="input-nota-3">
-        </label>
-
-        <button>Enviar</button>
+        <h1>Sistema Escolar</h1>
+        <h3>Insira as suas notas</h3>
+        
+        <div>
+        <span>1ª Unidade</span>
+        <input type="text" id="input-nota-1">
+        </div>
+        
+        <div>
+        <span>2ª Unidade</span>
+        <input type="text" id="input-nota-2">
+        </div>
+        
+        <div>
+        <span>3ª Unidade</span>
+        <input type="text" id="input-nota-3">
+        </div>
+        
+        <button id="btn-enviar-notas">Enviar</button>
     </form>
+    <script src="index.js"></script>
 </body>
 </html>
