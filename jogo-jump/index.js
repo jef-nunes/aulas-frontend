@@ -29,7 +29,7 @@ const loop = setInterval(()=>{
         projetil.style.animation = `${projetilPos}px`;
         jogador.style.animation = "none"
         jogador.style.bottom = `${jogadorPos}px`;
-        jogador.src="./images/megaman-derrotado.png";
+        jogador.src="./images/jogador-derrotado.png";
     }
 }, 300);
 
